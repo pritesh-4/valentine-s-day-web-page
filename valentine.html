@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Question For You 💌</title>
+    <link rel="stylesheet" href="valentine.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="bg-hearts"></div>
+
+    <div class="card">
+        
+        <div id="page1" class="page">
+            <img src="1.gif" alt="Shy Bear" class="gif">
+            <h1>Hey... I have a question.</h1>
+            <p>I've been wanting to ask you this for a while...</p>
+            <button class="next-btn" onclick="nextPage()">What is it?</button>
+        </div>
+
+        <div id="page2" class="page hidden">
+            <img id="main-gif" src="2.gif" alt="Ask Bear" class="gif">
+            <h1 id="main-text">Will you be my Valentine? 🌹</h1>
+            
+            <div class="buttons">
+                <button id="yes-btn">YES! ❤️</button>
+                <button id="no-btn">No</button>
+            </div>
+        </div>
+
+        <div id="page3" class="page hidden">
+            <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="Kissing Bear" class="gif">
+            <h1>YAY! I Love You! 💖</h1>
+            <p>See you on the 14th! (Don't be late!)</p>
+        </div>
+
+    </div>
+
+    <canvas id="confetti"></canvas>
+
+    <script src="valentine.js"></script>
+</body>
+</html>

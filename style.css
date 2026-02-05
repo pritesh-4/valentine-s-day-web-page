@@ -96,10 +96,12 @@ body {
     text-decoration: none;
     border-radius: 30px;
     transition: transform 0.3s;
+    margin: 12px;
 }
 
 .btn:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
+    background: #962f4b;
 }
 
 .section {
@@ -211,3 +213,4 @@ body {
         font-size: 36px;
     }
 }
+
